@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Hand Car Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Second Hand Car Marketplace</h1>
+    </header>
+    
+    <main>
+        <section id="car-registration">
+            <h2>Register Your Car</h2>
+            <form id="car-form">
+                <label for="car-make">Car Make:</label>
+                <input type="text" id="car-make" required>
+                <label for="car-model">Car Model:</label>
+                <input type="text" id="car-model" required>
+                <label for="car-year">Car Year:</label>
+                <input type="number" id="car-year" required>
+                <label for="car-price">Price:</label>
+                <input type="number" id="car-price" required>
+                <label for="car-description">Description:</label>
+                <textarea id="car-description" required></textarea>
+                <label for="car-image">Upload Image:</label>
+                <input type="file" id="car-image" accept="image/*" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <section id="car-listings">
+            <h2>Available Cars</h2>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Second Hand Car Marketplace</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
